@@ -1,0 +1,64 @@
+.block {
+	background: rgb(243, 156, 18);
+}
+
+#head {
+	background: rgb(153,0,0);
+	color: white;
+}
+
+.table-compare{
+	border-style: solid;
+	border-width: 5;
+}
+.table-compare th{
+	font: bold;
+}
+.table-compare tr{
+	border-style: solid;
+	border-width: 2;
+}
+.table-compare td{
+	border-style: solid;
+	border-width: 1;
+}
+
+h4{
+	font-style: italic;
+	color: dimgrey;
+}
+
+a:hover{
+	color:rgb(255,0,0);
+}
+
+.letter{
+	font: bold;
+	font-size: 150%;
+	color: red;
+}
+
+/*Особый стиль для таблицы из ДЗ 2*/
+.table-task2{
+	background: linear-gradient(45deg, #8B0000, #FFD700);
+	border-collapse: collapse;
+}
+
+.table-task2 th{
+	background: #FFD700;
+}
+
+.table-task2 tr:hover{
+	background: white;
+	opacity: 0.2;
+}
+
+.table-task2 td:hover{
+	background: white;
+	opacity: 0.2;
+}
+
+.table-task2 col:hover{
+	background: white;
+	opacity: 0.2;
+}
