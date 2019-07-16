@@ -1,0 +1,32 @@
+.table{
+	border-collapse: collapse;
+}
+
+.cell{
+	background: #F9B31F;
+	border: none;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.cell:hover{
+	transition-property: color;
+	color: #F9B31F;
+
+	-o-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+
+	transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+}
+
+caption{
+	font-size: 200%;
+}
