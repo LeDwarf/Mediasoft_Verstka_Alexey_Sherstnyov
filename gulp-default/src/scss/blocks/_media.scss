@@ -1,0 +1,12 @@
+.block2 {
+  color: red;
+
+  &__elem {
+    color: blue;
+    transform: translateX(50%);
+  }
+}
+
+a {
+  color: green;
+}

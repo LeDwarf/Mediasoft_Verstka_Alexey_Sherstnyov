@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        include includes/head
+    body
+        -var list = ["main", "404"]
+        ul.index-list
+            each item in list
+                li._item
+                    a( href = item + '.html' )= item
